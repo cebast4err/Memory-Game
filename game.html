@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jogo da Memória</title>
+    <link rel="stylesheet" href="game.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Oswald&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main>
+      <section class="container">
+        <p class="pause-icon"><i id="icon" class="fa-solid fa-pause"></i></p>
+        <div class="container-pause">
+          <h1 id="pause">Pause</h1>
+          <div class="buttons-end">
+            <a href="./index.html"><button>Escolher outro nome</button></a>
+            <a href="./choose.html"><button>Escolher outro tema</button> </a>
+          </div>
+        </div>
+        </div>
+        <div class="container-end">
+          <div class="alert-end">
+            <span id="end">Fim de Jogo </span>
+            <span id="time2"
+              >Tempo:
+              <p></p
+            ></span>
+          </div>
+          <div class="buttons-end">
+            <a href="./game.html"><button>Começar de Novo</button></a>
+            <a href="./choose.html"><button>Escolher outro tema</button> </a>
+          </div>
+        </div>
+        <article>
+          <div class="name-time">
+            <span id="name"></span>
+            <span id="time1"
+              >Tempo:
+              <p>00</p></span
+            >
+          </div>
+          <div class="grid"></div>
+        </article>
+      </section>
+    </main>
+    <script src="game.js"></script>
+  </body>
+</html>
