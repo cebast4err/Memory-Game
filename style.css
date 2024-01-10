@@ -4,7 +4,8 @@
     box-sizing: border-box;
 }
 body {
-    color: #fff;
+    color: #ffffff;
+    background-color: #494949;
 }
 .box-size {
     min-width: 100%;
